@@ -8,7 +8,7 @@ import { GithubIcon } from "@/components/icons";
 
 export interface ProjectCardProps {
   name: string;
-  favicon: string;
+  favicon?: string;
   imageUrl: string[];
   description: string;
   sourceCodeHref: string;
@@ -29,9 +29,11 @@ export default function ProjectCard(props: ProjectCardProps) {
       <Corosel images={props.imageUrl} aspectRatio={2.1} />
       <div className="p-3 text-foreground sm:p-4">
         <div className="flex items-center gap-3">
-          <span className="relative h-5 w-5">
-            <Image src={props.favicon} alt="logo" fill />
-          </span>
+          {props.favicon && (
+            <span className="relative h-5 w-5">
+              <Image src={props.favicon} alt="logo" fill />
+            </span>
+          )}
           <span className="text-sm font-semibold">{props.name}</span>
         </div>
         <div className="mt-3">

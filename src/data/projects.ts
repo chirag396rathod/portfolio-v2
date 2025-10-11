@@ -5,121 +5,107 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "Email AI",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Nextjs", "Expressjs", "Shadcn UI", "Netlify", "Groq API", "Prisma"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/emailAI-1.jpeg",
+      DARK: "/images/projects/emailAI-1.jpeg",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "AI Image Repository",
     href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
-    ],
+    tags: ["Reactjs", "AntD", "Nodejs", "Laxica AI API"],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/AIImageRepo-1.jpg",
+      DARK: "/images/projects/AIImageRepo-1.jpg",
     },
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "Elevation AI",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Nextjs", "Stream API", "Socket.io"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/ElevationAI-2.jpeg",
+      DARK: "/images/projects/ElevationAI-1.jpeg",
     },
   },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
-    description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
-  },
-  {
-    name: "Kanban app",
-    favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
-    ],
-    description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
-  },
-  {
-    name: "Many Games",
-    favicon: "/images/projects/logos/manygames.ico",
-    imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
-    ],
-    description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
-  },
-  {
-    name: "My portfolio",
+    name: "Email AI",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/emailAI-1.jpeg",
+      "/images/projects/emailAI-1.jpeg",
     ],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
+      "Built a comprehensive AI-powered business platform that combines task management, capital tracking, and team collaboration, helping teams streamline operations and improve productivity.",
+    sourceCodeHref: "https://github.com/chirag396rathod/email-ai",
+    liveWebsiteHref: "https://github.com/chirag396rathod/email-ai",
+  },
+  {
+    name: "Elevation AI",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/ElevationAI-1.jpeg",
+      "/images/projects/ElevationAI-2.jpeg",
+    ],
+    description:
+      "Built a comprehensive AI-powered business platform that combines task management, capital tracking, and team collaboration, helping teams streamline operations and improve productivity.",
+    sourceCodeHref: "#",
+    liveWebsiteHref: "https://elevationai.com/",
+  },
+  {
+    name: "AI Image Repository",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/AIImageRepo-1.jpg",
+      "/images/projects/AIImageRepo-2.jpg",
+      "/images/projects/AIImageRepo-3.jpg",
+    ],
+    description:
+      "AI-Driven Image Prompt Website using the MERN stack. I leveraged AI and built a robust back-end, dynamic interface, and real-time community features to redefine creative exploration. See the GitHub for details!",
+    sourceCodeHref: "https://github.com/chirag396rathod/AI-Image-Repository",
+    liveWebsiteHref: "https://aiimagerepository.netlify.app",
+  },
+  {
+    name: "Urban Management System App",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/P7/1.jpeg",
+      "/images/projects/P7/2.jpeg",
+      "/images/projects/P7/3.jpeg",
+    ],
+    description:
+      "Embark on a journey towards improved urban living with the Urban Management System App, a comprehensive solution that empowers users to contribute towards enhancing their local communities. As a visionary project, this app seamlessly integrates technology and community engagement, effectively addressing urban challenges with efficiency and inclusivity.",
+    sourceCodeHref: "#",
+    liveWebsiteHref: "#",
+  },
+  {
+    name: "Zomato clone",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/P1/1.png",
+      "/images/projects/P1/2.jpg",
+      "/images/projects/P1/3.jpg",
+    ],
+    description:
+      "Embark on a visual journey through the art of web design with our Zomato Clone Web Design project. This endeavor showcases my adeptness in front-end design, utilizing the dynamic trio of React, SCSS, and Styled Components to create an engaging and aesthetically pleasing user interface.",
+    sourceCodeHref: siteMetadata.siteUrl,
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
-    name: "Covid Tracker",
-    favicon: "/images/projects/logos/covidtracker.ico",
-    imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
-    ],
+    name: "Landing Screen",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/P3/1.jpg", "/images/projects/P3/2.jpg"],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
-  },
-  {
-    name: "Stock predictor",
-    favicon: "/images/projects/logos/stockpredictor.ico",
-    imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
-    ],
-    description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "A sleek, responsive marketing site for a Conversational AI platform, built purely with clean HTML, CSS, and vanilla JavaScript. Focus on modern CX design standards.",
+    sourceCodeHref: siteMetadata.siteUrl,
+    liveWebsiteHref: siteMetadata.siteUrl,
   },
 ];

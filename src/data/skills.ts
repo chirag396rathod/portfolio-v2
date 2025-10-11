@@ -3,7 +3,6 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiNextdotjs,
-  SiFlask,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -18,11 +17,9 @@ import CsssSvg from "@/public/icons/css.svg";
 import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
@@ -37,8 +34,6 @@ import PostgressSvg from "@/public/icons/postgresql.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
-import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
@@ -65,10 +60,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Typescript",
         icon: TypescriptSvg,
       },
-      {
-        name: "Python",
-        icon: PythonSvg,
-      },
+      // {
+      //   name: "Python",
+      //   icon: PythonSvg,
+      // },
     ],
   },
   {
@@ -82,10 +77,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Nextjs",
         icon: SiNextdotjs,
       },
-      {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
+      // {
+      //   name: "Solidjs",
+      //   icon: SolidjsSvg,
+      // },
       {
         name: "React Router Dom",
         icon: ReactRouterDomIcon,
@@ -131,10 +126,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Socket.io",
         icon: SiSocketdotio,
       },
-      {
-        name: "Flask",
-        icon: SiFlask,
-      },
+      // {
+      //   name: "Flask",
+      //   icon: SiFlask,
+      // },
     ],
   },
   {
@@ -161,14 +156,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Git",
         icon: GitSvg,
       },
-      {
-        name: "Docker",
-        icon: DockerSvg,
-      },
-      {
-        name: "AWS",
-        icon: AwsSvg,
-      },
+      // {
+      //   name: "Docker",
+      //   icon: DockerSvg,
+      // },
+      // {
+      //   name: "AWS",
+      //   icon: AwsSvg,
+      // },
       {
         name: "Postman",
         icon: PostmanSvg,

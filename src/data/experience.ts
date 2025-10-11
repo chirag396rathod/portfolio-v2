@@ -2,35 +2,37 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Jr. Software Developer",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "Munim erp private limited",
+      href: "https://themunim.com/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
+    date: "October 2025 - Present",
+    location: "Surat",
     description: "Reactjs and Nextjs app development",
   },
   {
-    title: "Engineering Trainee",
+    title: "React Js Developer",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "Atologist Infotech",
+      href: "https://atologistinfotech.com/",
     },
-    date: "July 2023 - Sep 2023",
-    location: "Remote",
+    date: "April 2023 - October 2025",
+    location: "Surat",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Solved workflow inefficiencies by building AI-driven automation that reduced manual tasks, improved collaboration, and enhanced decision-making using agentic AI and LLM-powered task management.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "React Js Developer Intern",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "Atologist Infotech",
+      href: "https://atologistinfotech.com",
     },
-    date: "Winter - 2022",
-    location: "Remote",
-    description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+    date: "April 2022 - December 2022",
+    location: "Surat",
+    description: `During this development period, I learn so many technologies like React js,
+React Hooks, Redux(thunk), Soket.io, React Styled Component, and many
+more. Also Complete 2 Live projects. In this project, I made a social app and
+made react complex UI.`,
   },
 ];
