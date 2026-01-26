@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -96,8 +95,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Embark on a visual journey through the art of web design with our Zomato Clone Web Design project. This endeavor showcases my adeptness in front-end design, utilizing the dynamic trio of React, SCSS, and Styled Components to create an engaging and aesthetically pleasing user interface.",
-    sourceCodeHref: siteMetadata.siteUrl,
-    liveWebsiteHref: siteMetadata.siteUrl,
+    sourceCodeHref: "#",
+    liveWebsiteHref: "#",
   },
   {
     name: "Landing Screen",
@@ -105,7 +104,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/P3/1.jpg", "/images/projects/P3/2.jpg"],
     description:
       "A sleek, responsive marketing site for a Conversational AI platform, built purely with clean HTML, CSS, and vanilla JavaScript. Focus on modern CX design standards.",
-    sourceCodeHref: siteMetadata.siteUrl,
-    liveWebsiteHref: siteMetadata.siteUrl,
+    sourceCodeHref: "#",
+    liveWebsiteHref: "#",
   },
 ];
