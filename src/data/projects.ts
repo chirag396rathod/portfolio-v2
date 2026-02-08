@@ -43,7 +43,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/emailAI-1.jpeg",
     ],
     description:
-      "Built a comprehensive AI-powered business platform that combines task management, capital tracking, and team collaboration, helping teams streamline operations and improve productivity.",
+      "This tool automates your entire email flow using Google Sheets + AI. From writing to sending emails, everything is handled with just a few clicks",
     sourceCodeHref: "https://github.com/chirag396rathod/email-ai",
     liveWebsiteHref: "https://github.com/chirag396rathod/email-ai",
   },
